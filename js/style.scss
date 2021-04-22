@@ -1,0 +1,57 @@
+/* ===== SKILLS =====*/
+.skills{
+    &__container{
+        row-gap: 2rem;
+        text-align: center;
+    }
+    &__subtitle{
+        margin-bottom: var(--mb-2);
+    }
+    &__text{
+        margin-bottom: var(--mb-4);
+    }
+    &__data{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        font-weight: var(--font-semi);
+        padding: .5rem 1rem;
+        margin-bottom: var(--mb-4);
+        border-radius: .5rem;
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+    }
+    &__icon{
+        font-size: 2rem;
+        margin-right: var(--mb-2);
+        color: var(--first-color);
+    }
+    &__names{
+        display: flex;
+        align-items: center;
+    }
+    &__bar{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: var(--first-color);
+        height: .25rem;
+        border-radius: .5rem;
+        z-index: var(--z-back);
+    }
+    &__html{
+        width: 95%;
+    }
+    &__css{
+        width: 85%;
+    }
+    &__js{
+        width: 65%;
+    }
+    &__ux{
+        width: 85%;
+    }
+    &__img{
+        border-radius: .5rem;
+    }
+}
