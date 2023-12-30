@@ -470,19 +470,24 @@ section .title::after{
 .skills-content .right .html::before{
   width: 90%;
 }
-.skills-content .right .css::before{
+.skills-content .right .JQurey::before{
   width: 60%;
 }
-.skills-content .right .js::before{
+.skills-content .right .CSS::before{
   width: 80%;
 }
-.skills-content .right .php::before{
+.skills-content .right .JavaScript::before{
   width: 50%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .Bootstrap::before{
   width: 70%;
 }
-
+.skills-content .right .C::before{
+  width: 50%;
+}
+.skills-content .right .Python::before{
+  width: 50%;
+}
 
 /* contact section styling */
 .contact{
